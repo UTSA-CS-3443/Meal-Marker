@@ -1,4 +1,4 @@
-package edu.utsa.cs3443.fall2026demoproject;
+package edu.utsa.cs3443.mealmarker;
 
 import javafx.application.Application;
 
