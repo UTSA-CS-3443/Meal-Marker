@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                edu.utsa.cs3443.mealmarker/edu.utsa.cs3443.mealmarker.HelloApplication
+                                edu.utsa.cs3443.mealmarker/edu.utsa.cs3443.mealmarker.MealMarkerApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
