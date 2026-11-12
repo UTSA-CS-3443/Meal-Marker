@@ -2,3 +2,4 @@
 
 <?import javafx.scene.layout.*?>
 
+<HBox xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.utsa.cs3443.mealmarker.UserGuideController" />
