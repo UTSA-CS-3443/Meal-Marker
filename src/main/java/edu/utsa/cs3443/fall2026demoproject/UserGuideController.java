@@ -21,7 +21,23 @@ public class UserGuideController {
         windows[4] = new Window("Features", "Info...");
     }
 
-    // TODO: Implement javafxids
+    @FXML
+    private Button gettingStartedButton;
+
+    @FXML
+    private Button editingPreferencesButton;
+
+    @FXML
+    private Button understandingBudgetButton;
+
+    @FXML
+    private Button locatingNutritionInfoButton;
+
+    @FXML
+    private Button featuresButton;
+
+    @FXML
+    private Button closeWindowButton;
 
     // TODO: Implement JavaFX functions
     @FXML
