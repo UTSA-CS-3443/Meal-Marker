@@ -6,11 +6,11 @@ import javafx.scene.control.Button;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.VBox;
 
 public class UserGuideController {
     private Window[] windows;
 
-    // TODO: Define info for windows utilizing String.format()
     @FXML
     private void initialize(){
         windows = new Window[5];
@@ -22,22 +22,13 @@ public class UserGuideController {
     }
 
     @FXML
-    private Button gettingStartedButton;
+    private VBox windowVBox;
 
     @FXML
-    private Button editingPreferencesButton;
+    private TextField titleTextField;
 
     @FXML
-    private Button understandingBudgetButton;
-
-    @FXML
-    private Button locatingNutritionInfoButton;
-
-    @FXML
-    private Button featuresButton;
-
-    @FXML
-    private Button closeWindowButton;
+    private TextArea infoTextArea;
 
     @FXML
     public void onGettingStartedButtonClicked(ActionEvent event){
@@ -69,11 +60,18 @@ public class UserGuideController {
         closeWindow();
     }
 
-    // TODO: Implement "opening" the window
+    // TODO: Ensure window is scaled to fit text
     @FXML
-    public void displayWindow(Window window){}
+    public void displayWindow(Window window){
+        titleTextField.setText(window.getTitle());
+        infoTextArea.setText(window.getInfo());
+        windowVBox.setVisible(true);
+    }
 
-    // TODO: Implement "closing" the window
     @FXML
-    public void closeWindow(){}
+    public void closeWindow() {
+        windowVBox.setVisible(false);
+        titleTextField.setText("");
+        infoTextArea.setText("");
+    }
 }
