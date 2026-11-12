@@ -9,8 +9,8 @@ import javafx.scene.control.TextField;
 
 public class UserGuideController {
     private Window[] windows;
-    private int selected;
 
+    // TODO: Define info for windows utilizing String.format()
     @FXML
     private void initialize(){
         windows = new Window[5];
@@ -39,28 +39,41 @@ public class UserGuideController {
     @FXML
     private Button closeWindowButton;
 
-    // TODO: Implement JavaFX functions
     @FXML
-    public void onGettingStartedButtonClicked(ActionEvent event){}
+    public void onGettingStartedButtonClicked(ActionEvent event){
+        displayWindow(windows[0]);
+    }
 
     @FXML
-    public void onEditingPreferencesButtonClicked(ActionEvent event){}
+    public void onEditingPreferencesButtonClicked(ActionEvent event){
+        displayWindow(windows[1]);
+    }
 
     @FXML
-    public void onUnderstandingBudgetButtonClicked(ActionEvent event){}
+    public void onUnderstandingBudgetButtonClicked(ActionEvent event){
+        displayWindow(windows[2]);
+    }
 
     @FXML
-    public void onLocatingNutritionInfoButtonClicked(ActionEvent event){}
+    public void onLocatingNutritionInfoButtonClicked(ActionEvent event){
+        displayWindow(windows[3]);
+    }
 
     @FXML
-    public void onFeaturesButtonClicked(ActionEvent event){}
+    public void onFeaturesButtonClicked(ActionEvent event){
+        displayWindow(windows[4]);
+    }
 
     @FXML
-    public void onCloseWindowButtonClicked(ActionEvent event){}
+    public void onCloseWindowButtonClicked(ActionEvent event){
+        closeWindow();
+    }
 
+    // TODO: Implement "opening" the window
     @FXML
-    public void displayWindow(String title){}
+    public void displayWindow(Window window){}
 
+    // TODO: Implement "closing" the window
     @FXML
     public void closeWindow(){}
 }
