@@ -21,6 +21,8 @@ public class UserGuideController {
         windows[4] = new Window("Features", "Info...");
     }
 
+    // TODO: Implement javafxids
+
     // TODO: Implement JavaFX functions
     @FXML
     public void onGettingStartedButtonClicked(ActionEvent event){}
