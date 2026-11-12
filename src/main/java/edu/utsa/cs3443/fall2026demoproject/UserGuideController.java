@@ -11,6 +11,7 @@ import javafx.scene.layout.VBox;
 public class UserGuideController {
     private Window[] windows;
 
+    // TODO: Write info for each respective window
     @FXML
     private void initialize(){
         windows = new Window[5];
