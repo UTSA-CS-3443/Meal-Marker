@@ -1,4 +1,4 @@
-package edu.utsa.cs3443.fall2026demoproject;
+package edu.utsa.cs3443.mealmarker;
 
 public class Window {
     private final String title;
