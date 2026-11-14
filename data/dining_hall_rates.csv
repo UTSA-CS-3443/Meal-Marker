@@ -1,0 +1,4 @@
+﻿restaurant_id,restaurant_name,entry_type,price_usd,price_basis,source_url,checked_date
+MC01,Roadrunner Café,Breakfast admission,10.29,Door rate before tax (not per individual food item),https://utsa.mydininghub.com/en/location/roadrunner-cafe,2026-10-28
+MC01,Roadrunner Café,Lunch admission,13.33,Door rate before tax (not per individual food item),https://utsa.mydininghub.com/en/location/roadrunner-cafe,2026-10-28
+MC01,Roadrunner Café,Dinner admission,15.53,Door rate before tax (not per individual food item),https://utsa.mydininghub.com/en/location/roadrunner-cafe,2026-10-28
