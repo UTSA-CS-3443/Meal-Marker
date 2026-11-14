@@ -1,0 +1,26 @@
+﻿restaurant_id,restaurant_name,campus,menu_entries,current_location_menu_entries,2026_campus_price_entries,nutrition_numbers_available,research_needed
+MC01,Roadrunner Café,Main Campus,0,0,0,0,Need store-specific items and prices
+MC02,RowdyMart Express,Main Campus,0,0,0,0,Need store-specific items and prices
+MC03,Chick-fil-A,Main Campus,5,0,0,4,Confirm full campus menu/portion/current price; old or brand menu rows are NOT necessarily current
+MC04,Starbucks,Main Campus,2,0,0,0,Confirm full campus menu/portion/current price; old or brand menu rows are NOT necessarily current
+MC05,Freshens Fresh Food Studio,Main Campus,48,0,0,48,Confirm full campus menu/portion/current price; old or brand menu rows are NOT necessarily current
+MC06,Subway,Main Campus,1,0,0,0,Confirm full campus menu/portion/current price; old or brand menu rows are NOT necessarily current
+MC07,Sushic,Main Campus,28,0,0,28,Confirm full campus menu/portion/current price; old or brand menu rows are NOT necessarily current
+MC08,Dragon Bowlz,Main Campus,7,0,0,7,Confirm full campus menu/portion/current price; old or brand menu rows are NOT necessarily current
+MC09,RowdyMart,Main Campus,0,0,0,0,Need store-specific items and prices
+MC10,Panda Express,Main Campus,1,0,0,0,Confirm full campus menu/portion/current price; old or brand menu rows are NOT necessarily current
+MC11,Freebirds,Main Campus,1,0,0,0,Confirm full campus menu/portion/current price; old or brand menu rows are NOT necessarily current
+MC12,RowdyMart,Main Campus,0,0,0,0,Need store-specific items and prices
+MC13,Smoothie King,Main Campus,68,68,21,0,Confirm full campus menu/portion/current price; old or brand menu rows are NOT necessarily current
+MC14,Union Perk,Main Campus,9,0,0,0,Confirm full campus menu/portion/current price; old or brand menu rows are NOT necessarily current
+MC15,The Den by Denny’s (Student Union),Main Campus,10,10,0,0,Confirm full campus menu/portion/current price; old or brand menu rows are NOT necessarily current
+MC16,Choolaah Indian BBQ,Main Campus,6,6,0,0,Confirm full campus menu/portion/current price; old or brand menu rows are NOT necessarily current
+MC17,RowdyMart,Main Campus,0,0,0,0,Need store-specific items and prices
+MC18,Pizza Hut,Main Campus,1,0,0,0,Confirm full campus menu/portion/current price; old or brand menu rows are NOT necessarily current
+MC19,RowdyMart Express,Main Campus,0,0,0,0,Need store-specific items and prices
+MC20,RowdyMart Express,Main Campus,0,0,0,0,Need store-specific items and prices
+MC21,RowdyMart Express,Main Campus,0,0,0,0,Need store-specific items and prices
+MC22,Einstein Bros. Bagels,Main Campus,1,0,0,0,Confirm full campus menu/portion/current price; old or brand menu rows are NOT necessarily current
+MC23,Java City,Main Campus,0,0,0,0,Need store-specific items and prices
+MC24,BesTea,Main Campus,77,0,0,0,Confirm full campus menu/portion/current price; old or brand menu rows are NOT necessarily current
+MC25,Farmer's Fridge,Main Campus,0,0,0,0,Need store-specific items and prices
